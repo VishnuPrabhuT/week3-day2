@@ -54,7 +54,7 @@
 
         for (let i = 1; i <= 6; i++) {
             fileNames.push(`winterland${i}`);
-            photos.push(`<img src='images/${fileNames[fileNames.length - 1]}.jpg'>`);
+            photos.push(`<img src='images/${fileNames[fileNames.length - 1]}.jpg' alt=${fileNames[fileNames.length - 1]} Image>`);
             image = openList + photos[photos.length - 1] + closeList;
             imageList.push(image);
 
